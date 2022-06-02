@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent">
+        <button class="btn new-game">🔄&nbsp;&nbsp; New game</button>
+        <button class="btn roll-dice-btn">🎲&nbsp;&nbsp; Roll dice</button>
+        <button class="btn hold-btn">📥&nbsp;&nbsp; Hold</button>
+
+        <!-- DICE IMAGE -->
+        <div class="dice-img-container">
+            <img src="dice-1.png" alt="" class="dice-img hidden">
+        </div>
+
+        <div class="child child1 active">
+            <div>
+                <h1 class="name1">PLAYER 1</h1>
+                <p class="score">0</p>
+            </div>
+            <div class="current">
+                <p class="current-label">current</p>
+                <p class="current-score">0</p>
+            </div>
+        </div>
+        <div class="child child2">
+            <div>
+                <h1 class="name2">PLAYER 1</h1>
+                <p class="score">0</p>
+            </div>
+            <div class="current">
+                <p class="current-label">current</p>
+                <p class="current-score">0</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
